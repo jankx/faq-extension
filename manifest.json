@@ -1,0 +1,18 @@
+{
+    "name": "FAQ",
+    "version": "1.0.0",
+    "description": "Quản lý các câu hỏi thường gặp (FAQ) bằng post type chia theo danh mục, kèm tích hợp tiêm FAQ động vào trang My Account.",
+    "author": "Jankx",
+    "extension_id": "faq",
+    "context": ["admin", "frontend"],
+    "caller": {
+        "file": "FaqExtension.php",
+        "class": "Jankx\\Extensions\\Faq\\FaqExtension",
+        "method": "init"
+    },
+    "requirements": {
+        "php": ">=7.4"
+    },
+    "auto_activate": true,
+    "settings_url": "admin.php?page=jankx-faq-settings"
+}

@@ -1,7 +1,7 @@
 # FAQ Extension
 
 Quản lý các câu hỏi thường gặp (Frequently Asked Questions) cho website
-Nobitour (Jankx). Dữ liệu được quản lý bằng **post type** `jankx_faq` và chia
+nibitour (Jankx). Dữ liệu được quản lý bằng **post type** `jankx_faq` và chia
 theo **danh mục** bằng taxonomy `jankx_faq_category`.
 
 ## Kiến trúc

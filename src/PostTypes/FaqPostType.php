@@ -82,7 +82,7 @@ class FaqPostType
             'hierarchical' => false,
             'menu_position' => 30,
             'menu_icon' => 'dashicons-editor-help',
-            'supports' => ['title', 'editor', 'page-attributes', 'custom-fields'],
+            'supports' => ['title', 'editor', 'page-attributes'],
         ];
 
         register_post_type(self::POST_TYPE, $args);
